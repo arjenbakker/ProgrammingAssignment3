@@ -2,6 +2,12 @@
 
 Purpose: create a tidy dataset using script run_analysis.R
 
+# Files in this repo
+
+README.md -- you are reading it right now
+CodeBook.md -- codebook describing variables, the data and transformations
+run_analysis.R -- actual R code
+
 # Raw Data
 
 The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
