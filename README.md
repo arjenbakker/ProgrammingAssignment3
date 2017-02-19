@@ -24,7 +24,7 @@ The script assumes it has in it's working directory the following files and fold
 - test/
 - train/
 
-# run_analysis.R
+# run_analysis.R functionality
 
 The script has the following functionality:
 - Merges the training and the test sets to create one data set.
@@ -32,6 +32,27 @@ The script has the following functionality:
 - Uses descriptive activity names to name the activities in the data set
 - Appropriately labels the data set with descriptive variable names.
 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+# run_analysis.R steps
+- read the common data files
+- read the test data file
+  - set correct column names
+  - select only 'mean' and 'std' columns
+- read test subject data file
+- read test activity data file
+  - set correct labels
+- merge subject, activity and test data together
+- read training data file
+  - set correct column names
+  - select only 'mean' and 'std' columns
+- read training subject data file
+- read training activity data file
+  - set correct labels
+- merge subject, activity and training data together
+- merge training and test data to 1 file
+  - tidy column names
+- calculate means of all columns by subject and activity
+- write result to file
 
 # Result
 
