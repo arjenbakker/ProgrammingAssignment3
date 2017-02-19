@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project
 
-Purpose: create a tidy dataset using script run_analysis.R
+Purpose: create a tidy set of smartphone data using script run_analysis.R
 
 # Files in this repo
 
@@ -31,4 +31,8 @@ The script has the following functionality:
 - Extracts only the measurements on the mean and standard deviation for each measurement.
 - Uses descriptive activity names to name the activities in the data set
 - Appropriately labels the data set with descriptive variable names.
-- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Filename is 'tidy_dataset.txt'.
+- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+# Result
+
+Final result is a tidy dataset in the working directory called 'tidy_dataset.txt'.
