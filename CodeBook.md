@@ -8,7 +8,8 @@ subject
 activity
   - activity name (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
-See Data section for information on rest of the variables:
+See 'data' section for information on rest of the variables:
+
 tbodyaccmeanx,
 tbodyaccmeany,
 tbodyaccmeanz,
